@@ -11,7 +11,7 @@ PORT=3000 # the port the server will run in
 SECRET="dl;sjfpioewhrlnfgn/,.azdnvlikhzl;gnjhoiretghti[8ohalrfhjgoj" #secret for purpose of sign in
 ```
 ### Step 2
-Instell the dependencies
+Install the dependencies
 ```bash
 npm i
 ```
