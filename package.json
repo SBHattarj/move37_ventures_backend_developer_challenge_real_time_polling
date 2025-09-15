@@ -1,0 +1,31 @@
+{
+  "name": "ventures_real_time_polling",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "generate-prisma": "prisma generate",
+    "migrate": "prisma migrate dev --name init",
+    "studio": "prisma studio",
+    "test": "node ./test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^6.16.1",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "@types/cookie-parser": "^1.4.9",
+    "@types/dotenv": "^8.2.3",
+    "@types/express": "^5.0.3",
+    "prisma": "^6.16.1",
+    "socket.io-client": "^4.8.1"
+  }
+}

@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "moduleResolution": "node",
+        "module": "esnext",
+        "resolveJsonModule": true,
+        "allowJs": true,
+        "checkJs": true,
+        "noEmit": true,
+        "strict": true,
+        "declaration": true,
+        "allowSyntheticDefaultImports": true,
+        "emitDeclarationOnly": true,
+        "outDir": "types",
+        "types": [
+            "src/generated/prisma/client/index.d.ts",
+            "src/generated/prisma/client/runtime/library.d.ts"
+        ]
+    },
+    "include": ["src/**/*.js"],
+    "exclude": ["node_modules"]
+}
